@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head><link rel="icon" href="favicon.ico" type="image/x-icon">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#111111">
 
   <!-- SEO -->
-  <title>Меню бара smoky papits в Уфе — коктейли, кухня, цены</title>
-  <meta name="description" content="Полное меню бара smoky papits в Уфе: коктейли, закуски, горячее, десерты. Цены и состав всех позиций.">
+  <title>Меню бара Smoky Papits в Уфе — блюда и напитки</title>
+  <meta name="description" content="Пример меню бара Smoky Papits: коктейли, закуски, горячее и десерты с составом и учебными ценами. Выберите раздел меню.">
 
-  <link rel="canonical" href="https://smoky-papits.ru/menu.html">
+  <link rel="canonical" href="https://sd334.github.io/smoky-papits-site/menu.html">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Меню — бар smoky papits, Уфа">
-  <meta property="og:description" content="Коктейли, кухня, десерты. Все позиции с ценами.">
-  <meta property="og:image" content="https://smoky-papits.ru/images/menu.jpg">
+  <meta property="og:title" content="Меню бара Smoky Papits в Уфе — блюда и напитки">
+  <meta property="og:description" content="Пример меню бара Smoky Papits: коктейли, закуски, горячее и десерты с составом и учебными ценами. Выберите раздел меню.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sd334.github.io/smoky-papits-site/menu.html">
   <meta property="og:locale" content="ru_RU">
 
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  <div class="project-notice"><div class="container">Учебный SEO-проект · адрес, цены, события и контакты — примеры. <a href="seo-practice.html">Открыть задания и проверку сайта →</a></div></div>
 
   <!-- HEADER -->
   <header class="site-header">
@@ -29,25 +32,27 @@
 
       <nav aria-label="Основное меню">
         <ul class="nav-list">
-          <li><a href="menu.html">Меню</a></li>
+          <li><a href="menu.html" aria-current="page">Меню</a></li>
           <li><a href="cocktails.html">Коктейли</a></li>
           <li><a href="kitchen.html">Кухня</a></li>
-          <li><a href="events.html">инфоповод</a></li>
+          <li><a href="events.html">Афиша</a></li>
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
       </nav>
 
-      <a href="tel:+78005553535" class="phone">+7 (800) 555-35-35</a>
+      <a href="contacts.html" class="phone">Учебные контакты</a>
       <a href="index.html#booking" class="btn-book">Забронировать</a>
     </div>
   </header>
 
-  <main>
+  <main id="main">
+  <nav class="breadcrumbs container" aria-label="Хлебные крошки"><ol><li><a href="index.html">Главная</a></li><li aria-current="page">Меню бара Smoky Papits</li></ol></nav>
+
 
     <!-- HERO -->
     <section class="hero">
       <div class="container">
-        <h1>Меню бара smoky papits</h1>
+        <h1>Меню бара Smoky Papits</h1>
         <p>Коктейли, кухня, десерты. Всё, что есть в баре — на одной странице.</p>
         <a href="index.html#booking" class="btn-primary">Забронировать столик</a>
       </div>
@@ -62,17 +67,17 @@
         <div class="menu-grid">
           <article class="menu-card">
             <h3><a href="cocktails.html">Коктейли</a></h3>
-            <p>Классика, авторские, безалкогольные. Более 40 позиций.</p>
+            <p>Классика, авторские, безалкогольные. Примеры напитков с составом и ценами.</p>
           </article>
 
           <article class="menu-card">
             <h3><a href="kitchen.html">Кухня</a></h3>
-            <p>Закуски, горячее, десерты. Готовим до 05:00.</p>
+            <p>Закуски, горячее, десерты. В учебном макете заказы кухни — до 04:30.</p>
           </article>
 
           <article class="menu-card">
             <h3><a href="index.html#booking">Забронировать</a></h3>
-            <p>Бронь столика онлайн — за 30 секунд.</p>
+            <p>Демонстрация проверки формы без отправки заявки.</p>
           </article>
         </div>
       </div>
@@ -233,17 +238,18 @@
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 Бар smoky papits. Уфа.</p>
+      <p>© 2026 Smoky Papits · учебный сайт, не действующая служба бронирования.</p>
       <nav aria-label="Футер">
+        <a href="seo-practice.html">SEO-практика</a>
         <a href="menu.html">Меню</a>
         <a href="cocktails.html">Коктейли</a>
         <a href="kitchen.html">Кухня</a>
-        <a href="events.html">инфоповод</a>
+        <a href="events.html">Афиша</a>
         <a href="contacts.html">Контакты</a>
       </nav>
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="js/script.js" defer></script>
 </body>
 </html>

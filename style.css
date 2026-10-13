@@ -204,3 +204,300 @@ section h2 { font-size: 28px; margin-bottom: 24px; }
     height: 250px;
   }
 }
+
+/* Clear feedback and mobile-friendly learning tools. */
+html {
+  scroll-behavior:smooth
+}
+button,input,textarea {
+  font:inherit
+}
+a:focus-visible,button:focus-visible,summary:focus-visible {
+  outline:3px solid #8b6500;
+  outline-offset:4px
+}
+input:focus,textarea:focus {
+  outline:2px solid #8b6500;
+  outline-offset:2px
+}
+button:disabled {
+  opacity:.6;
+  cursor:not-allowed
+}
+.skip-link {
+  position:absolute;
+  left:16px;
+  top:-100px;
+  background:#ffcc00;
+  color:#111;
+  padding:12px;
+  z-index:10
+}
+.skip-link:focus {
+  top:12px
+}
+.project-notice {
+  background:#fff4c6;
+  border-bottom:1px solid #ead884;
+  padding:12px 0;
+  font-size:14px
+}
+.project-notice a {
+  color:#634500;
+  font-weight:700;
+  margin-left:10px
+}
+.nav-list a[aria-current="page"] {
+  color:#ffcc00;
+  text-decoration:underline;
+  text-underline-offset:5px
+}
+.breadcrumbs {
+  padding-top:18px;
+  padding-bottom:18px
+}
+.breadcrumbs ol {
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  list-style:none;
+  font-size:14px
+}
+.breadcrumbs li+li:before {
+  content:' / ';
+  color:#777;
+  margin-right:10px
+}
+.form-help {
+  font-size:14px;
+  color:#555;
+  line-height:1.8;
+  margin:12px 0 20px
+}
+.booking input:invalid:not(:placeholder-shown) {
+  border-color:#b38c23
+}
+.training-kicker {
+  font-size:12px!important;
+  font-weight:700;
+  letter-spacing:.12em;
+  margin-bottom:14px!important;
+  opacity:1!important
+}
+.features {
+  background:#f7f7f7
+}
+section p {
+  margin-bottom:14px
+}
+section h3 {
+  margin-bottom:10px
+}
+.menu-card p:last-child {
+  margin-bottom:0
+}
+.table-scroll {
+  overflow-x:auto;
+  margin-top:24px
+}
+.practice-table {
+  width:100%;
+  border-collapse:collapse;
+  text-align:left;
+  font-size:16px;
+  min-width:620px
+}
+.practice-table caption {
+  text-align:left;
+  font-weight:600;
+  padding:8px 0
+}
+.practice-table th,.practice-table td {
+  padding:16px;
+  border:1px solid #ddd;
+  vertical-align:top
+}
+.practice-table thead {
+  background:#111;
+  color:#fff
+}
+.exercise-box {
+  margin-top:24px;
+  padding:24px;
+  border:1px solid #ddd;
+  border-radius:10px;
+  background:#fff
+}
+.exercise-box ol,.case-list {
+  padding-left:23px;
+  line-height:1.9
+}
+.exercise-box li,.case-list li {
+  margin:10px 0
+}
+textarea {
+  display:block;
+  width:100%;
+  padding:14px;
+  border:1px solid #aaa;
+  border-radius:8px;
+  font-size:16px;
+  line-height:1.8;
+  margin:12px 0 18px;
+  resize:vertical
+}
+label {
+  line-height:1.8
+}
+details {
+  margin-top:24px;
+  padding:18px 20px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  background:#fff
+}
+summary {
+  cursor:pointer;
+  font-weight:650;
+  line-height:1.7
+}
+details p {
+  margin-top:16px
+}
+code {
+  overflow-wrap:anywhere;
+  font-size:14px
+}
+.criteria-list,.audit-results {
+  list-style:none;
+  padding:0
+}
+.criteria-list li {
+  padding:8px 0;
+  line-height:1.8
+}
+.pass {
+  color:#176237
+}
+.fail {
+  color:#9a421f
+}
+.feedback-summary {
+  font-weight:650;
+  margin:18px 0 10px
+}
+.audit-results>li {
+  border:1px solid #ddd;
+  border-radius:8px;
+  padding:20px;
+  margin:16px 0;
+  background:#fff
+}
+.audit-results li {
+  overflow-wrap:anywhere
+}
+#audit-status,#notes-status,#booking-result {
+  margin-top:18px;
+  font-weight:650
+}
+.btn-secondary {
+  display:inline-block;
+  background:#fff;
+  color:#111;
+  border:1px solid #777;
+  padding:13px 20px;
+  border-radius:8px;
+  cursor:pointer;
+  min-height:48px;
+  line-height:1.5
+}
+.journal-actions {
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  align-items:center
+}
+.journal-actions input[type="file"] {
+  max-width:100%;
+  font-size:14px
+}
+.source-list {
+  padding-left:22px;
+  line-height:2
+}
+.site-footer p {
+  margin-bottom:12px
+}
+.site-footer nav {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px
+}
+.map-wrapper iframe {
+  border:0
+}
+.btn-primary,.btn-book {
+  min-height:44px;
+  line-height:1.5
+}
+.nav-list a {
+  display:inline-block;
+  padding:4px 0
+}
+#journal,#audit,#titles,#structure {
+  scroll-margin-top:16px
+}
+@media(max-width:768px) {
+  .project-notice {
+    font-size:13px
+  }
+  .project-notice a {
+    display:block;
+    margin:6px 0 0
+  }
+  .nav-list a {
+    padding:8px 0
+  }
+  .exercise-box {
+    padding:18px
+  }
+  .journal-actions {
+    align-items:stretch;
+    flex-direction:column
+  }
+  .journal-actions button,.journal-actions label {
+    text-align:center;
+    width:100%
+  }
+  .hero h1 {
+    line-height:1.3
+  }
+  .breadcrumbs ol {
+    font-size:13px
+  }
+  .practice-table {
+    font-size:14px
+  }
+  .practice-table th,.practice-table td {
+    padding:12px
+  }
+  .audit-results>li {
+    padding:16px
+  }
+  .table-scroll {
+    border:1px solid #ddd;
+    border-radius:8px
+  }
+  .form-help {
+    font-size:14px
+  }
+  .site-header .phone {
+    font-size:14px
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  html {
+    scroll-behavior:auto
+  }
+}
