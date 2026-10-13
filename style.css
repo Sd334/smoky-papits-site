@@ -65,3 +65,142 @@ section h2 { font-size: 28px; margin-bottom: 24px; }
   width: 100%;
   border: 0;
 }
+/* ============================
+   АДАПТИВ — планшеты и телефоны
+   ============================ */
+@media (max-width: 768px) {
+
+  /* Контейнер */
+  .container {
+    padding: 0 16px;
+  }
+
+  /* Шапка: вертикальная раскладка */
+  .site-header {
+    padding: 12px 0;
+  }
+  .site-header .container {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+  .logo {
+    text-align: center;
+    font-size: 22px;
+  }
+  .nav-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 14px;
+  }
+  .phone {
+    margin-left: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  .btn-book {
+    text-align: center;
+    padding: 12px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 50px 0;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .btn-primary {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+
+  /* Секции */
+  section {
+    padding: 40px 0;
+  }
+  section h2 {
+    font-size: 24px;
+  }
+
+  /* Сетки — в одну колонку */
+  .features-list,
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* Меню-карточки */
+  .menu-card {
+    padding: 16px;
+  }
+  .menu-card h3 {
+    font-size: 18px;
+  }
+
+  /* События */
+  .events-list li {
+    padding: 16px 0;
+  }
+
+  /* Бронирование */
+  .booking form {
+    max-width: 100%;
+  }
+
+  /* Футер */
+  .site-footer {
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .site-footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+  /* Карта */
+  .map-wrapper iframe {
+    height: 300px;
+  }
+}
+
+/* ============================
+   АДАПТИВ — маленькие телефоны
+   ============================ */
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 15px;
+  }
+  section h2 {
+    font-size: 22px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .nav-list {
+    font-size: 13px;
+    gap: 10px;
+  }
+  .phone {
+    font-size: 15px;
+  }
+  .btn-book,
+  .btn-primary {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .map-wrapper iframe {
+    height: 250px;
+  }
+}
