@@ -1,4 +1,6 @@
+# Project-site example. Crawlers read robots.txt at https://sd334.github.io/robots.txt, not inside /smoky-papits-site/.
+# This file does not control crawling of the GitHub Pages project site.
 User-agent: *
 Allow: /
 
-Sitemap: https://smoky-papits.ru/sitemap.xml
+Sitemap: https://sd334.github.io/smoky-papits-site/sitemap.xml
