@@ -1,0 +1,195 @@
+<!Imdex.html>
+<html lang="ru">
+<head><link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+
+  <!-- SEO: title до 60 символов, с ключом и гео -->
+  <title>Бар smoky papits в Уфе — жижа, харчи, яндекс музыка</title>
+
+  <!-- SEO: description до 160 символов, отвечает на интент -->
+  <meta name="description" content="Бар смоки папитс — бар в центре Уфы, где можно навалить кринжа">
+
+  <!-- SEO: canonical, чтобы не было дублей -->
+  <link rel="canonical" href="https://smoky-papits.ru/">
+
+  <!-- Соцсети (Open Graph) -->
+  <meta property="og:title" content="Бар смоки папитс в Уфе">
+  <meta property="og:description" content="Жижа, харчи и яндекс музыка.">
+  <meta property="og:image" content="https://smoky-papits.ru/images/hero.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+
+  <!-- Микроразметка LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarOrPub",
+    "name": "Бар смоки папитс",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Уфа",
+      "streetAddress": "ул. Свердлова, 228",    
+      "postalCode": "450000",
+      "addressCountry": "RU"
+    },
+    "telephone": "+7 (800) 555-35-35",
+    "openingHours": "Mo-Su 15:00-05:00",
+    "servesCuisine": "всякая херня"
+  }
+  </script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Бар смоки папитс — на главную">смоки папитс</a>
+
+      <nav aria-label="Основное меню">
+        <ul class="nav-list">
+          <li><a href="menu.html">Меню</a></li>
+          <li><a href="cocktails.html">Коктейли</a></li>
+          <li><a href="kitchen.html">Кухня</a></li>
+          <li><a href="events.html">Инфоповод</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a href="tel:+78005553535" class="phone">+7 (800) 555-35-35</a>
+      <a href="#booking" class="btn-book">Забронировать</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <h1>Бар smoky papits — кринж в центре города</h1>
+        <p>Авторские коктейли, хрючево от поваров, есть музыка. Бронь столика за 30 секунд.</p>
+        <a href="#booking" class="btn-primary">Забронировать столик</a>
+      </div>
+    </section>
+
+    <!-- ПРЕИМУЩЕСТВА -->
+    <section class="features">
+      <div class="container">
+        <h2>Почему выбирают smoky papits</h2>
+        <ul class="features-list">
+          <li>
+            <h3>Жижа в стакане</h3>
+            <p>Море всего, а выбрать нечего.</p>
+          </li>
+          <li>
+            <h3>Кухня — дай бог сегодня будет работать</h3>
+            <p>Дай бог тебе повезёт, и мы что-то приготовим.</p>
+          </li>
+          <li>
+            <h3>Алиса сыграет твою нелюбимую музыку</h3>
+            <p>Кринжа наваливаем каждый день.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- МЕНЮ-ПРЕВЬЮ -->
+    <section class="menu-preview">
+      <div class="container">
+        <h2>Наше меню</h2>
+        <p>Коктейли, крепкий алкоголь, кухня. Полное меню — на отдельной странице.</p>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <h3><a href="cocktails.html">Коктейли</a></h3>
+            <p>Классика и авторские миксы. От 450 ₽.</p>
+          </article>
+
+          <article class="menu-card">
+            <h3><a href="kitchen.html">Кухня</a></h3>
+            <p>Закуски, горячее, десерты. От 350 ₽.</p>
+          </article>
+
+          <article class="menu-card">
+            <h3><a href="menu.html">Полное меню</a></h3>
+            <p>Все позиции бара с ценами и описанием.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- АФИША -->
+    <section class="events-preview">
+      <div class="container">
+        <h2>Скоро будет возня </h2>
+        <ul class="events-list">
+          <li>
+            <time datetime="2026-10-17">17 октября</time>
+            <p>Живой концерт: Роман Югай </p>
+          </li>
+          <li>
+            <time datetime="2026-10-18">18 октября</time>
+            <p>DJ-сет: Света &amp; Тимур пумба</p>
+          </li>
+        </ul>
+        <a href="events.html" class="link-more">Погнали→</a>
+      </div>
+    </section>
+
+    <!-- БРОНИРОВАНИЕ -->
+    <section id="booking" class="booking">
+      <div class="container">
+        <h2>Забронировать столик</h2>
+        <form action="#" method="post">
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="phone">Телефон</label>
+          <input type="tel" id="phone" name="phone" required>
+
+          <label for="date">Дата и время</label>
+          <input type="datetime-local" id="date" name="date" required>
+
+          <label for="guests">Количество гостей</label>
+          <input type="number" id="guests" name="guests" min="1" max="20">
+
+          <button type="submit" class="btn-primary">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section class="contacts-preview">
+      <div class="container">
+        <h2>Контакты</h2>
+        <address>
+          <p>Уфа, Свердлова 228</p>
+          <p><a href="tel:+78005553535">+7 (800) 555-35-35</a></p>
+          <p>Ежедневно с 15:00 до 05:00</p>
+        </address>
+        <a href="contacts.html">Как добраться →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Бар smoky papits. Уфа.</p>
+      <nav aria-label="Футер">
+        <a href="menu.html">Меню</a>
+        <a href="cocktails.html">Коктейли</a>
+        <a href="kitchen.html">Кухня</a>
+        <a href="events.html">инфоповод</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
